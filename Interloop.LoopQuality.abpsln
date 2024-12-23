@@ -1,0 +1,45 @@
+{
+  "id": "938a364b-f53b-43d3-9f7a-235562ab6afa",
+  "template": "app",
+  "versions": {
+    "LeptonX": "4.0.3",
+    "AbpFramework": "9.0.2",
+    "AbpCommercial": "9.0.2",
+    "AbpStudio": "0.9.17",
+    "TargetDotnetFramework": "net9.0"
+  },
+  "modules": {
+    "Interloop.LoopQuality": {
+      "path": "Interloop.LoopQuality.abpmdl"
+    }
+  },
+  "runProfiles": {
+    "Default": {
+      "path": "etc/abp-studio/run-profiles/Default.abprun.json"
+    }
+  },
+  "options": {
+    "httpRequests": {
+      "ignoredUrls": [
+        "^/metrics$"
+      ]
+    }
+  },
+  "creatingStudioConfiguration": {
+    "template": "app",
+    "createdAbpStudioVersion": "0.9.17",
+    "tiered": "false",
+    "multiTenancy": "true",
+    "includeTests": "false",
+    "uiFramework": "mvc",
+    "databaseProvider": "ef",
+    "databaseManagementSystem": "postgresql",
+    "separateTenantSchema": "false",
+    "theme": "leptonx",
+    "themeStyle": "system",
+    "mobileFramework": "none",
+    "publicWebsite": "false",
+    "optionalModules": "GDPR FileManagement TextTemplateManagement LanguageManagement AuditLogging Chat OpenIddictAdmin",
+    "socialLogin": ""
+  }
+}

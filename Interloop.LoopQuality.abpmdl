@@ -1,0 +1,104 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXTheme": {
+      "version": "4.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.TextTemplateManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Chat": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.LanguageManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.FileManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict.Pro": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Gdpr": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.AuditLogging.Pro": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Saas": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity.Pro": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account.Pro": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {}
+    }
+  },
+  "packages": {
+    "Interloop.LoopQuality.Application": {
+      "path": "src/Interloop.LoopQuality.Application/Interloop.LoopQuality.Application.abppkg",
+      "folder": "src"
+    },
+    "Interloop.LoopQuality.Domain.Shared": {
+      "path": "src/Interloop.LoopQuality.Domain.Shared/Interloop.LoopQuality.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Interloop.LoopQuality.Application.Contracts": {
+      "path": "src/Interloop.LoopQuality.Application.Contracts/Interloop.LoopQuality.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Interloop.LoopQuality.HttpApi": {
+      "path": "src/Interloop.LoopQuality.HttpApi/Interloop.LoopQuality.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Interloop.LoopQuality.HttpApi.Client": {
+      "path": "src/Interloop.LoopQuality.HttpApi.Client/Interloop.LoopQuality.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Interloop.LoopQuality.Web": {
+      "path": "src/Interloop.LoopQuality.Web/Interloop.LoopQuality.Web.abppkg",
+      "folder": "src"
+    },
+    "Interloop.LoopQuality.EntityFrameworkCore": {
+      "path": "src/Interloop.LoopQuality.EntityFrameworkCore/Interloop.LoopQuality.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Interloop.LoopQuality.DbMigrator": {
+      "path": "src/Interloop.LoopQuality.DbMigrator/Interloop.LoopQuality.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Interloop.LoopQuality.Domain": {
+      "path": "src/Interloop.LoopQuality.Domain/Interloop.LoopQuality.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
